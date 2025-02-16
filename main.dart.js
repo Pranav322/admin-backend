@@ -91509,7 +91509,7 @@ A.a1h.prototype={
 As(a){return this.alZ(a)},
 alZ(a){var s=0,r=A.H(t.z),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e
 var $async$As=A.I(function(b,c){if(b===1){p=c
-s=q}while(true)switch(s){case 0:g=A.eu("https://theapix-a054236b35bd.herokuapp.com/api/casts")
+s=q}while(true)switch(s){case 0:g=A.eu("https://api.theapix.in/api/casts")
 f=o.c
 f.toString
 k=A.fl(f,!1,t.v1).c
@@ -91563,7 +91563,7 @@ return A.G($async$Dn,r)},
 xI(a){return this.a0g(a)},
 a0g(a){var s=0,r=A.H(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g
 var $async$xI=A.I(function(b,c){if(b===1){p=c
-s=q}while(true)switch(s){case 0:h=A.eu("https://theapix-a054236b35bd.herokuapp.com/api/castsbymovie/"+a)
+s=q}while(true)switch(s){case 0:h=A.eu("https://api.theapix.in/api/castsbymovie/"+a)
 q=3
 k=t.N
 s=6
@@ -91659,7 +91659,7 @@ J.a3N(m,"image",l,h)
 h=new XMLHttpRequest()
 h.toString
 k=h
-J.aFX(k,"POST","https://theapix-a054236b35bd.herokuapp.com/api/image/upload")
+J.aFX(k,"POST","https://api.theapix.in/api/image/upload")
 j=new A.bh(new A.aq($.ai,t.pN),t._c)
 h=t._p
 A.Ws(k,"load",new A.ayb(k,j),!1,h)
@@ -91851,7 +91851,7 @@ a=a==null?null:J.a8(a,"url")
 a0=J.a8(J.a8(k,"data"),"trailer")
 a0=a0==null?null:J.a8(a0,"publicId")
 j=new A.pk(g,f,e,null,d,c,b,a,a0,t.j.b(J.a8(J.a8(k,"data"),"eager"))?J.qb(J.lP(J.a8(J.a8(k,"data"),"eager"),new A.ayL(),t.kp)):A.a([],t.UW))
-g=A.eu("https://theapix-a054236b35bd.herokuapp.com/api/videoDetail/add")
+g=A.eu("https://api.theapix.in/api/videoDetail/add")
 f=t.N
 f=A.al(["Content-Type","application/json"],f,f)
 s=12
@@ -91937,7 +91937,7 @@ als(a,b){var s=0,r=A.H(t.y),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c
 var $async$Af=A.I(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
 A.dt("hereee 1 ")
-k=A.eu("https://theapix-a054236b35bd.herokuapp.com/api/episodes")
+k=A.eu("https://api.theapix.in/api/episodes")
 j=t.N
 i=A.al(["Content-Type","application/json"],j,j)
 h=n.k1[a]
@@ -92020,7 +92020,7 @@ var $async$xK=A.I(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 j=t.N
 s=6
-return A.N(A.aBc(A.eu("https://theapix-a054236b35bd.herokuapp.com/api/getMovieEpisodes/"+A.k(o.fx)),A.al(["Content-Type","application/json"],j,j)),$async$xK)
+return A.N(A.aBc(A.eu("https://api.theapix.in/api/getMovieEpisodes/"+A.k(o.fx)),A.al(["Content-Type","application/json"],j,j)),$async$xK)
 case 6:n=b
 if(n.b===200){j=n
 m=B.ag.ra(0,A.jp(A.jm(j.e).c.a.i(0,"charset")).co(0,j.w),null)
@@ -92045,7 +92045,7 @@ var $async$xU=A.I(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 j=t.N
 s=6
-return A.N(A.aBc(A.eu("https://theapix-a054236b35bd.herokuapp.com/api/videoDetail/"+A.k(o.fx)),A.al(["Content-Type","application/json"],j,j)),$async$xU)
+return A.N(A.aBc(A.eu("https://api.theapix.in/api/videoDetail/"+A.k(o.fx)),A.al(["Content-Type","application/json"],j,j)),$async$xU)
 case 6:n=b
 j=n
 A.dt("response video "+A.jp(A.jm(j.e).c.a.i(0,"charset")).co(0,j.w))
@@ -92637,7 +92637,7 @@ var $async$tH=A.I(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:q=3
 j=t.N
 s=6
-return A.N(A.aBc(A.eu("https://theapix-a054236b35bd.herokuapp.com/api/get/movies"),A.al(["Content-Type","application/json"],j,j)),$async$tH)
+return A.N(A.aBc(A.eu("https://api.theapix.in/api/get/movies"),A.al(["Content-Type","application/json"],j,j)),$async$tH)
 case 6:n=b
 j=n
 A.dt("getMovies response: "+A.jp(A.jm(j.e).c.a.i(0,"charset")).co(0,j.w))
@@ -92665,7 +92665,7 @@ am5(a){var s=0,r=A.H(t.y),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$Az=A.I(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 A.dt("moview DATA "+a.fh().k(0))
-k=A.eu("https://theapix-a054236b35bd.herokuapp.com/api/add/movie")
+k=A.eu("https://api.theapix.in/api/add/movie")
 j=t.N
 j=A.al(["Content-Type","application/json"],j,j)
 s=7
@@ -92716,7 +92716,7 @@ g.toString
 J.a3N(n,"trailer",k,g)}g=new XMLHttpRequest()
 g.toString
 j=g
-J.aFX(j,"POST","https://theapix-a054236b35bd.herokuapp.com/api/videos/upload")
+J.aFX(j,"POST","https://api.theapix.in/api/videos/upload")
 i=new A.bh(new A.aq($.ai,t.pN),t._c)
 g=t._p
 A.Ws(j,"load",new A.ag1(j,i),!1,g)
